@@ -11,6 +11,222 @@
 		(company "ARGV")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -7204,6 +7420,166 @@
 		)
 		(uuid "ffe747f2-dc28-420e-a5d9-5f4fcccfdad4")
 	)
+	(label "VBUS"
+		(at 248.92 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0868a87b-ddb4-4d4d-b870-10ed89e6a884")
+	)
+	(label "VSYS"
+		(at 331.47 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "111303d9-958a-4388-976e-73da6e8823e5")
+	)
+	(label "GPIO20"
+		(at 247.65 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16ee8193-19de-4571-9340-a81ac7c1ebf9")
+	)
+	(label "VBUS"
+		(at 247.65 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17f4cc0b-b8ad-42d3-9ee4-742a541232ad")
+	)
+	(label "GPIO21"
+		(at 247.65 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "226a7360-0022-44f7-9c38-9cbe0628bdb8")
+	)
+	(label "GPIO21"
+		(at 298.45 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31ae1ad8-9f2c-4c8b-bbc6-ec6bccd26edb")
+	)
+	(label "GPIO21"
+		(at 359.41 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "421af049-6a47-4c79-99e4-b471f4f6fc88")
+	)
+	(label "GPIO21"
+		(at 271.78 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4af05520-651c-401a-8335-491d39137ea2")
+	)
+	(label "GPIO20"
+		(at 298.45 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89295db5-be5b-48df-9277-8b25bd2ec446")
+	)
+	(label "GND"
+		(at 298.45 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98e1464a-8968-460f-9964-c257bb23db40")
+	)
+	(label "GND"
+		(at 247.65 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aef6b684-e4e7-47cc-a79b-db82cc5eb89b")
+	)
+	(label "GND"
+		(at 248.92 120.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2008742-849a-49e6-8057-c536107faa66")
+	)
+	(label "GPIO20"
+		(at 271.78 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0f2ebfe-2bd8-486a-a32b-301d11102a54")
+	)
+	(label "GND"
+		(at 336.55 120.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcfe5859-7dd8-4865-b177-fb1492aa94a1")
+	)
+	(label "GPIO20"
+		(at 359.41 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de615b6c-4f5a-4b91-9627-07c3d2dde892")
+	)
+	(label "VSYS"
+		(at 298.45 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e83797fb-4a7b-4a01-8c02-cd445e81544a")
+	)
 	(global_label "L_COL6"
 		(shape input)
 		(at 203.2 88.9 90)
@@ -11749,6 +12125,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 293.37 29.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46dd96bf-3fdb-4b28-b91e-84868d128767")
+		(property "Reference" "J2"
+			(at 290.83 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 290.83 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 293.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "152131c2-e234-440f-afcc-21e60009c703")
+		)
+		(pin "2"
+			(uuid "491f65fe-76b7-48a3-b278-6b7e37ce1a70")
+		)
+		(pin "3"
+			(uuid "a6710603-e533-4849-9fbb-0dea1603ab0a")
+		)
+		(pin "4"
+			(uuid "4b115174-0619-4a63-afa4-0096811b7789")
+		)
+		(instances
+			(project "argv_split_kicad"
+				(path "/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 381 234.95 90)
 		(unit 1)
@@ -13822,7 +14286,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 323.85 59.69 0)
+		(at 336.55 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13833,7 +14297,7 @@
 		(fields_autoplaced yes)
 		(uuid "688bf382-88bf-4d78-9aeb-ca564a85237a")
 		(property "Reference" "A2"
-			(at 325.9933 93.98 0)
+			(at 338.6933 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13844,7 +14308,7 @@
 			)
 		)
 		(property "Value" "RIGHT_Pico"
-			(at 325.9933 96.52 0)
+			(at 338.6933 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13855,7 +14319,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-			(at 323.85 106.68 0)
+			(at 336.55 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13866,7 +14330,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 323.85 109.22 0)
+			(at 336.55 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13877,7 +14341,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 323.85 111.76 0)
+			(at 336.55 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15146,7 +15610,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 247.65 59.69 0)
+		(at 248.92 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15157,7 +15621,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cad6b41-f2cb-4919-81b3-804891d8bdc5")
 		(property "Reference" "A1"
-			(at 249.7933 93.98 0)
+			(at 251.0633 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15168,7 +15632,7 @@
 			)
 		)
 		(property "Value" "LEFT_Pico"
-			(at 249.7933 96.52 0)
+			(at 251.0633 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15179,7 +15643,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-			(at 247.65 106.68 0)
+			(at 248.92 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15190,7 +15654,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 247.65 109.22 0)
+			(at 248.92 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15201,7 +15665,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 247.65 111.76 0)
+			(at 248.92 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20903,6 +21367,94 @@
 			(project "argv_split_kicad"
 				(path "/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52"
 					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 252.73 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbefbeaa-e66a-4934-a348-6298204702dc")
+		(property "Reference" "J1"
+			(at 255.27 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 255.27 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04ebdba2-76f9-4ec9-aad9-a09053ae0ed2")
+		)
+		(pin "2"
+			(uuid "70f7f8c1-f9f9-41cb-a279-1073bffcd573")
+		)
+		(pin "3"
+			(uuid "eec8ef23-db90-460f-88a4-814d836b1ff4")
+		)
+		(pin "4"
+			(uuid "b4aa8a4b-cb56-472b-9fdb-5e23a4f960d5")
+		)
+		(instances
+			(project "argv_split_kicad"
+				(path "/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52"
+					(reference "J1")
 					(unit 1)
 				)
 			)
