@@ -7441,7 +7441,7 @@
 		(uuid "111303d9-958a-4388-976e-73da6e8823e5")
 	)
 	(label "GPIO20"
-		(at 247.65 29.21 180)
+		(at 260.35 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7451,7 +7451,7 @@
 		(uuid "16ee8193-19de-4571-9340-a81ac7c1ebf9")
 	)
 	(label "VBUS"
-		(at 247.65 26.67 180)
+		(at 260.35 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7461,7 +7461,7 @@
 		(uuid "17f4cc0b-b8ad-42d3-9ee4-742a541232ad")
 	)
 	(label "GPIO21"
-		(at 247.65 31.75 180)
+		(at 260.35 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7471,7 +7471,7 @@
 		(uuid "226a7360-0022-44f7-9c38-9cbe0628bdb8")
 	)
 	(label "GPIO21"
-		(at 298.45 29.21 0)
+		(at 323.85 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7501,7 +7501,7 @@
 		(uuid "4af05520-651c-401a-8335-491d39137ea2")
 	)
 	(label "GPIO20"
-		(at 298.45 31.75 0)
+		(at 323.85 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7511,7 +7511,7 @@
 		(uuid "89295db5-be5b-48df-9277-8b25bd2ec446")
 	)
 	(label "GND"
-		(at 298.45 34.29 0)
+		(at 323.85 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7521,7 +7521,7 @@
 		(uuid "98e1464a-8968-460f-9964-c257bb23db40")
 	)
 	(label "GND"
-		(at 247.65 34.29 180)
+		(at 260.35 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7571,7 +7571,7 @@
 		(uuid "de615b6c-4f5a-4b91-9627-07c3d2dde892")
 	)
 	(label "VSYS"
-		(at 298.45 26.67 0)
+		(at 323.85 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10972,7 +10972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u_90deg"
 			(at 184.15 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -12126,7 +12126,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 293.37 29.21 0)
+		(at 318.77 29.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12137,7 +12137,7 @@
 		(dnp no)
 		(uuid "46dd96bf-3fdb-4b28-b91e-84868d128767")
 		(property "Reference" "J2"
-			(at 290.83 29.2099 0)
+			(at 316.23 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12148,7 +12148,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 290.83 31.7499 0)
+			(at 316.23 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12158,8 +12158,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 293.37 29.21 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 318.77 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12170,7 +12170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 29.21 0)
+			(at 318.77 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12181,7 +12181,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 293.37 29.21 0)
+			(at 318.77 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15456,7 +15456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u_90deg"
 			(at 425.45 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -16100,7 +16100,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u_90deg"
 			(at 234.95 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -16548,7 +16548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u_90deg"
 			(at 209.55 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -17180,7 +17180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u_90deg"
 			(at 400.05 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -19068,7 +19068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u"
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_2.00u_90deg"
 			(at 374.65 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -21374,7 +21374,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 252.73 29.21 0)
+		(at 265.43 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21385,7 +21385,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbefbeaa-e66a-4934-a348-6298204702dc")
 		(property "Reference" "J1"
-			(at 255.27 29.2099 0)
+			(at 267.97 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21396,7 +21396,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 255.27 31.7499 0)
+			(at 267.97 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21406,8 +21406,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 252.73 29.21 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21418,7 +21418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 29.21 0)
+			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21429,7 +21429,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 252.73 29.21 0)
+			(at 265.43 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
