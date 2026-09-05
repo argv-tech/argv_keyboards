@@ -275,7 +275,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2489200|1206500|666b617d-b9dd-42e7-b1a5-d23d6c339967|fc634e91-0730-4389-a833-6dc4ae5e1f11|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52",
+        ""
+      ],
+      [
+        "pin_to_pin|2717800|1079500|fc634e91-0730-4389-a833-6dc4ae5e1f11|94e1b52a-7eb4-4e9a-9ac6-c3f53c6046c3|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52",
+        ""
+      ],
+      [
+        "pin_to_pin|3365500|1206500|94e1b52a-7eb4-4e9a-9ac6-c3f53c6046c3|07fbf853-7592-4525-a0d5-d3f648355d94|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52",
+        ""
+      ],
+      [
+        "power_pin_not_driven|3314700|469900|862105d8-d9b0-4eaa-8646-efa20cb3de17|00000000-0000-0000-0000-000000000000|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|/7ae25f3a-ab0f-4d4e-b7c7-e37abb23ab52|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },

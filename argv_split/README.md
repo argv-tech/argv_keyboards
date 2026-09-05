@@ -6,8 +6,8 @@ and key arrangement for this project.
 
 ## Features
 
-- Split, column-oriented ergonomic layout
-- 80 keys with dedicated thumb clusters
+- Split ergonomic layout with separated left and right key groups
+- 76 keys with dedicated thumb clusters
 - Kailh hot-swap sockets for MX-compatible switches
 - One diode per key for matrix isolation
 - A Raspberry Pi Pico controller on each half
@@ -15,26 +15,35 @@ and key arrangement for this project.
 
 ## Project files
 
-The KiCad project is located in [`argv_split_kicad/`](argv_split_kicad/):
+The design files are located in this directory:
 
-- `argv_split_kicad.kicad_sch` — circuit schematic
-- `argv_split_kicad.kicad_pcb` — PCB layout
-- `argv_split_kicad.kicad_pro` — KiCad project settings
-- `keyboard-layout.json` — physical layout data for Keyboard Layout Editor
+- [`argv_split_kicad/argv_split_kicad.kicad_sch`](argv_split_kicad/argv_split_kicad.kicad_sch) — circuit schematic
+- [`argv_split_kicad/argv_split_kicad.kicad_pcb`](argv_split_kicad/argv_split_kicad.kicad_pcb) — PCB layout
+- [`argv_split_kicad/argv_split_kicad.kicad_pro`](argv_split_kicad/argv_split_kicad.kicad_pro) — KiCad project settings
+- [`keyboard-layout.json`](keyboard-layout.json) — physical layout data for Keyboard Layout Editor
+- [`keyboard_layout.dxf`](keyboard_layout.dxf) — exported layout geometry
 
-Open `argv_split_kicad.kicad_pro` in KiCad to inspect or modify the design.
+Open `argv_split_kicad/argv_split_kicad.kicad_pro` in KiCad to inspect or
+modify the design.
 
 ## Layout
 
-The keyboard uses an 80-key split layout. It includes a full function row,
-alphanumeric columns with a 0.25u vertical stagger, dedicated arrow keys, inner
-symbol keys, and angled thumb clusters for Space, Backspace, Return, Control,
-Linux/Meta, and Alt.
+The keyboard uses a 76-key split layout:
+
+- 12 function keys (`F1`–`F12`), with six on each half
+- 56 keys in four horizontal main rows, with seven keys per half in each row
+- 8 thumb keys in two clusters rotated 30 degrees toward the center
+
+The outer keys in the main block are 1.5u wide. The inner columns contain
+parenthesis, brace, bracket, and quote keys. The left thumb cluster contains a
+2u `Space` key above three 2u-tall keys labeled `Crtl`, `Linux`, and `Alt`. The
+right cluster mirrors it with a 2u `backspace` key above `Return`, `Linux`, and
+`Crtl`. These names and spellings match the current layout data.
 
 To view or edit the layout, open Keyboard Layout Editor, choose **Raw data**, and
-paste in the contents of `keyboard-layout.json`. The labels in this file describe
-the intended physical layout; the active key behavior still depends on the
-keyboard firmware and keymap.
+paste in the contents of [`keyboard-layout.json`](keyboard-layout.json). The
+labels in this file describe the intended physical layout; the active key
+behavior still depends on the keyboard firmware and keymap.
 
 ## Status
 
