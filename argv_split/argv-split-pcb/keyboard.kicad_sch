@@ -13638,7 +13638,7 @@
       (effects
         (font
           (size 1.27 1.27))))
-    (property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
+    (property "Footprint" "ARGV:RaspberryPi_Pico_Case_THT"
       (at 292.1 66.04 0)
       (effects
         (font
