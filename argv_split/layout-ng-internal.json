@@ -24,11 +24,11 @@
       },
       "x": 0,
       "y": 0,
-      "width": 1.5,
+      "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
-      "width2": 1.5,
+      "width2": 1,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -55,7 +55,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 1.5,
+      "x": 1,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -88,7 +88,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 2.5,
+      "x": 2,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -121,7 +121,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 3.5,
+      "x": 3,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -154,7 +154,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 4.5,
+      "x": 4,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -187,7 +187,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 5.5,
+      "x": 5,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -212,7 +212,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "0,6"
+        "9,10"
       ],
       "textColor": [],
       "textSize": [],
@@ -220,7 +220,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 6.5,
+      "x": 13.5,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -245,7 +245,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "8,9"
+        "9,11"
       ],
       "textColor": [],
       "textSize": [],
@@ -253,7 +253,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 17,
+      "x": 14.5,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -278,7 +278,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "8,10"
+        "9,12"
       ],
       "textColor": [],
       "textSize": [],
@@ -286,7 +286,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 18,
+      "x": 15.5,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -311,7 +311,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "8,11"
+        "9,13"
       ],
       "textColor": [],
       "textSize": [],
@@ -319,7 +319,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 19,
+      "x": 16.5,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -344,7 +344,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "8,12"
+        "9,14"
       ],
       "textColor": [],
       "textSize": [],
@@ -352,7 +352,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 20,
+      "x": 17.5,
       "y": 0,
       "width": 1,
       "height": 1,
@@ -377,7 +377,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "8,13"
+        "9,15"
       ],
       "textColor": [],
       "textSize": [],
@@ -385,79 +385,13 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 21,
+      "x": 18.5,
       "y": 0,
       "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
       "width2": 1,
-      "height2": 1,
-      "rotation_x": 0,
-      "rotation_y": 0,
-      "rotation_angle": 0,
-      "decal": false,
-      "ghost": false,
-      "stepped": false,
-      "nub": false,
-      "profile": "",
-      "sm": "",
-      "sb": "",
-      "st": "",
-      "switchRotation": 0,
-      "stabRotation": 0
-    },
-    {
-      "color": "#cccccc",
-      "labels": [
-        "8,14"
-      ],
-      "textColor": [],
-      "textSize": [],
-      "default": {
-        "textColor": "#000000",
-        "textSize": 3
-      },
-      "x": 22,
-      "y": 0,
-      "width": 1,
-      "height": 1,
-      "x2": 0,
-      "y2": 0,
-      "width2": 1,
-      "height2": 1,
-      "rotation_x": 0,
-      "rotation_y": 0,
-      "rotation_angle": 0,
-      "decal": false,
-      "ghost": false,
-      "stepped": false,
-      "nub": false,
-      "profile": "",
-      "sm": "",
-      "sb": "",
-      "st": "",
-      "switchRotation": 0,
-      "stabRotation": 0
-    },
-    {
-      "color": "#cccccc",
-      "labels": [
-        "8,15"
-      ],
-      "textColor": [],
-      "textSize": [],
-      "default": {
-        "textColor": "#000000",
-        "textSize": 3
-      },
-      "x": 23,
-      "y": 0,
-      "width": 1.5,
-      "height": 1,
-      "x2": 0,
-      "y2": 0,
-      "width2": 1.5,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -486,11 +420,11 @@
       },
       "x": 0,
       "y": 1,
-      "width": 1.5,
+      "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
-      "width2": 1.5,
+      "width2": 1,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -517,7 +451,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 1.5,
+      "x": 1,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -550,7 +484,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 2.5,
+      "x": 2,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -583,7 +517,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 3.5,
+      "x": 3,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -616,7 +550,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 4.5,
+      "x": 4,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -649,7 +583,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 5.5,
+      "x": 5,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -682,7 +616,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 6.5,
+      "x": 6,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -707,7 +641,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "7,9"
+        "8,9"
       ],
       "textColor": [],
       "textSize": [],
@@ -715,7 +649,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 17,
+      "x": 12.5,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -740,7 +674,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "7,10"
+        "8,10"
       ],
       "textColor": [],
       "textSize": [],
@@ -748,7 +682,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 18,
+      "x": 13.5,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -773,7 +707,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "7,11"
+        "8,11"
       ],
       "textColor": [],
       "textSize": [],
@@ -781,7 +715,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 19,
+      "x": 14.5,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -806,7 +740,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "7,12"
+        "8,12"
       ],
       "textColor": [],
       "textSize": [],
@@ -814,7 +748,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 20,
+      "x": 15.5,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -839,7 +773,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "7,13"
+        "8,13"
       ],
       "textColor": [],
       "textSize": [],
@@ -847,7 +781,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 21,
+      "x": 16.5,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -872,7 +806,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "7,14"
+        "8,14"
       ],
       "textColor": [],
       "textSize": [],
@@ -880,7 +814,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 22,
+      "x": 17.5,
       "y": 1,
       "width": 1,
       "height": 1,
@@ -905,7 +839,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "7,15"
+        "8,15"
       ],
       "textColor": [],
       "textSize": [],
@@ -913,13 +847,13 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 23,
+      "x": 18.5,
       "y": 1,
-      "width": 1.5,
+      "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
-      "width2": 1.5,
+      "width2": 1,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -948,11 +882,11 @@
       },
       "x": 0,
       "y": 2,
-      "width": 1.5,
+      "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
-      "width2": 1.5,
+      "width2": 1,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -979,7 +913,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 1.5,
+      "x": 1,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1012,7 +946,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 2.5,
+      "x": 2,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1045,7 +979,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 3.5,
+      "x": 3,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1078,7 +1012,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 4.5,
+      "x": 4,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1111,7 +1045,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 5.5,
+      "x": 5,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1144,7 +1078,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 6.5,
+      "x": 6,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1169,7 +1103,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "6,9"
+        "7,9"
       ],
       "textColor": [],
       "textSize": [],
@@ -1177,7 +1111,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 17,
+      "x": 12.5,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1202,7 +1136,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "6,10"
+        "7,10"
       ],
       "textColor": [],
       "textSize": [],
@@ -1210,7 +1144,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 18,
+      "x": 13.5,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1235,7 +1169,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "6,11"
+        "7,11"
       ],
       "textColor": [],
       "textSize": [],
@@ -1243,7 +1177,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 19,
+      "x": 14.5,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1268,7 +1202,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "6,12"
+        "7,12"
       ],
       "textColor": [],
       "textSize": [],
@@ -1276,7 +1210,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 20,
+      "x": 15.5,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1301,7 +1235,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "6,13"
+        "7,13"
       ],
       "textColor": [],
       "textSize": [],
@@ -1309,7 +1243,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 21,
+      "x": 16.5,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1334,7 +1268,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "6,14"
+        "7,14"
       ],
       "textColor": [],
       "textSize": [],
@@ -1342,7 +1276,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 22,
+      "x": 17.5,
       "y": 2,
       "width": 1,
       "height": 1,
@@ -1367,21 +1301,21 @@
     {
       "color": "#cccccc",
       "labels": [
-        "6,15"
+        "7,15"
       ],
       "textColor": [],
       "textSize": [],
       "default": {
         "textColor": "#000000",
-        "textSize": 3
+        "textSize": 6
       },
-      "x": 23,
+      "x": 18.5,
       "y": 2,
-      "width": 1.5,
+      "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
-      "width2": 1.5,
+      "width2": 1,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -1410,11 +1344,11 @@
       },
       "x": 0,
       "y": 3,
-      "width": 1.5,
+      "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
-      "width2": 1.5,
+      "width2": 1,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -1441,7 +1375,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 1.5,
+      "x": 1,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1474,7 +1408,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 2.5,
+      "x": 2,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1507,7 +1441,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 3.5,
+      "x": 3,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1540,7 +1474,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 4.5,
+      "x": 4,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1573,73 +1507,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 5.5,
-      "y": 3,
-      "width": 1,
-      "height": 1,
-      "x2": 0,
-      "y2": 0,
-      "width2": 1,
-      "height2": 1,
-      "rotation_x": 0,
-      "rotation_y": 0,
-      "rotation_angle": 0,
-      "decal": false,
-      "ghost": false,
-      "stepped": false,
-      "nub": false,
-      "profile": "",
-      "sm": "",
-      "sb": "",
-      "st": "",
-      "switchRotation": 0,
-      "stabRotation": 0
-    },
-    {
-      "color": "#cccccc",
-      "labels": [
-        "3,6"
-      ],
-      "textColor": [],
-      "textSize": [],
-      "default": {
-        "textColor": "#000000",
-        "textSize": 3
-      },
-      "x": 6.5,
-      "y": 3,
-      "width": 1,
-      "height": 1,
-      "x2": 0,
-      "y2": 0,
-      "width2": 1,
-      "height2": 1,
-      "rotation_x": 0,
-      "rotation_y": 0,
-      "rotation_angle": 0,
-      "decal": false,
-      "ghost": false,
-      "stepped": false,
-      "nub": false,
-      "profile": "",
-      "sm": "",
-      "sb": "",
-      "st": "",
-      "switchRotation": 0,
-      "stabRotation": 0
-    },
-    {
-      "color": "#cccccc",
-      "labels": [
-        "5,9"
-      ],
-      "textColor": [],
-      "textSize": [],
-      "default": {
-        "textColor": "#000000",
-        "textSize": 3
-      },
-      "x": 17,
+      "x": 5,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1672,7 +1540,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 18,
+      "x": 13.5,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1705,7 +1573,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 19,
+      "x": 14.5,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1738,7 +1606,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 20,
+      "x": 15.5,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1771,7 +1639,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 21,
+      "x": 16.5,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1804,7 +1672,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 22,
+      "x": 17.5,
       "y": 3,
       "width": 1,
       "height": 1,
@@ -1837,13 +1705,13 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 23,
+      "x": 18.5,
       "y": 3,
-      "width": 1.5,
+      "width": 1,
       "height": 1,
       "x2": 0,
       "y2": 0,
-      "width2": 1.5,
+      "width2": 1,
       "height2": 1,
       "rotation_x": 0,
       "rotation_y": 0,
@@ -1870,7 +1738,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 7.5,
+      "x": 7,
       "y": 3.25,
       "width": 2,
       "height": 1,
@@ -1895,7 +1763,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "9,5"
+        "4,5"
       ],
       "textColor": [],
       "textSize": [],
@@ -1903,7 +1771,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 6.5,
+      "x": 6,
       "y": 4.25,
       "width": 1,
       "height": 2,
@@ -1928,7 +1796,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "9,6"
+        "4,6"
       ],
       "textColor": [],
       "textSize": [],
@@ -1936,7 +1804,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 7.5,
+      "x": 7,
       "y": 4.25,
       "width": 1,
       "height": 2,
@@ -1961,7 +1829,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "9,7"
+        "4,7"
       ],
       "textColor": [],
       "textSize": [],
@@ -1969,7 +1837,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 8.5,
+      "x": 8,
       "y": 4.25,
       "width": 1,
       "height": 2,
@@ -2002,7 +1870,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 15,
+      "x": 10.5,
       "y": 3.25,
       "width": 2,
       "height": 1,
@@ -2010,7 +1878,7 @@
       "y2": 0,
       "width2": 2,
       "height2": 1,
-      "rotation_x": 18,
+      "rotation_x": 13,
       "rotation_y": 4.25,
       "rotation_angle": -15,
       "decal": false,
@@ -2027,7 +1895,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "4,8"
+        "6,8"
       ],
       "textColor": [],
       "textSize": [],
@@ -2035,7 +1903,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 15,
+      "x": 10.5,
       "y": 4.25,
       "width": 1,
       "height": 2,
@@ -2043,7 +1911,7 @@
       "y2": 0,
       "width2": 1,
       "height2": 2,
-      "rotation_x": 18,
+      "rotation_x": 13,
       "rotation_y": 4.25,
       "rotation_angle": -15,
       "decal": false,
@@ -2060,7 +1928,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "4,9"
+        "6,9"
       ],
       "textColor": [],
       "textSize": [],
@@ -2068,7 +1936,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 16,
+      "x": 11.5,
       "y": 4.25,
       "width": 1,
       "height": 2,
@@ -2076,7 +1944,7 @@
       "y2": 0,
       "width2": 1,
       "height2": 2,
-      "rotation_x": 18,
+      "rotation_x": 13,
       "rotation_y": 4.25,
       "rotation_angle": -15,
       "decal": false,
@@ -2093,7 +1961,7 @@
     {
       "color": "#cccccc",
       "labels": [
-        "4,10"
+        "6,10"
       ],
       "textColor": [],
       "textSize": [],
@@ -2101,7 +1969,7 @@
         "textColor": "#000000",
         "textSize": 3
       },
-      "x": 17,
+      "x": 12.5,
       "y": 4.25,
       "width": 1,
       "height": 2,
@@ -2109,7 +1977,7 @@
       "y2": 0,
       "width2": 1,
       "height2": 2,
-      "rotation_x": 18,
+      "rotation_x": 13,
       "rotation_y": 4.25,
       "rotation_angle": -15,
       "decal": false,
